@@ -1,4 +1,4 @@
-# Air Quality in Poland: A Decade of PM10 Pollution in Tuchów and Beyond
+# An Analysis of Air Pollution Levels in Tuchów, Poland 2010-2020
 
 ## Introduction
 In this project, I analysed air pollution data, focusing on annual PM10 concentrations (μg/m³) in my hometown of Tuchów and comparing it with other Polish cities. Using data from the World Health Organisation (WHO) Ambient Air Quality Database and tools like DeepSeek to generate the code, and R and Tableau to analyse and visualise, I explored whether Tuchów's reputation for bad air quality was justified and how it changed from 2010 to 2020.
@@ -6,7 +6,7 @@ In this project, I analysed air pollution data, focusing on annual PM10 concentr
 A few years ago, I was surprised to learn that Tuchów, a town of less than 7,000 people, ranked among Europe's top 30 most polluted cities in Europe. Since the smog was always a local joke, I wanted to see if the data supported the claims, how pollution had evolved, and how Tuchów compared to larger and similarly sized cities. PM10, a key component of smog, served as my primary metric due to its direct link to respiratory health risks.
 
 ## Analysis
-The first graph (Figure 1) tracks Tuchów's PM10 levels over the decade, revealing a clear downward trend, from around 56 μg/m³ in 2010 to 31 μg/m³ in 2020. While this improvement is significant, early concentrations were significantly high, nearly triple the WHO's recommended annual limit (20 μg/m³).
+The first graph (Figure 1) tracks Tuchów's PM10 levels over the decade, revealing a clear downward trend, from around 56 μg/m³ in 2010 to 31 μg/m³ in 2020. While this improvement is significant, early concentrations were significantly high, nearly triple the WHO's recommended annual limit of 20 μg/m³.
 
 <div align="center">
   
@@ -15,7 +15,7 @@ The first graph (Figure 1) tracks Tuchów's PM10 levels over the decade, reveali
 Figure 1
 </div>
 
-Comparing Tuchów to towns of similar size (Figure 2) showed it consistently ranked among the worst, with PM10 levels often doubling those of others. Even more striking was its performance against Poland's largest cities (Figure 3). Despite its tiny population, Tuchów's pollution largely exceeded major urban cities like Warsaw and Wrocław, with only Kraków, another southern city, matching its poor air quality.
+Comparing Tuchów to towns of similar size (Figure 2) showed it consistently ranked among the worst, with PM10 levels often doubling those of others. Even more striking was its performance against Poland's largest cities (Figure 3). Despite its tiny population, Tuchów's pollution largely exceeded major urban cities like Warsaw and Wrocław, with only two southern cities Kraków and Katowice, matching Tuchów's poor air quality.
 
 <div align="center">
   
@@ -43,7 +43,7 @@ Figure 4
 </div>
 
 
-The Tableau dashboard ([click here to access](https://public.tableau.com/app/profile/monika.pekosz3314/viz/PolandPollutionLevelsDashboard/AveragePM10)) visualises these trends on an interactive map, highlighting a clear north-south divide. Southern cities, often located in valleys (Figure 5), suffer the worst air quality, while northern regions benefit from open plains and coastal winds. However, I was very glad to find that overall, the PM10 levels in Polish cities have reduced over the decade and that Tuchów went from being the 13th most polluted city in Poland in 2010 to being the 19th in 2020! It might not be much but it is still an improvement :)
+The Tableau dashboard ([click here to access](https://public.tableau.com/app/profile/monika.pekosz3314/viz/PolandPollutionLevelsDashboard/AveragePM10)) visualises these trends on an interactive map, highlighting a clear north-south divide. Southern cities, often located in valleys (Figure 5), suffer the worst air quality, while northern regions benefit from open plains and coastal winds. However, I was very glad to find that overall, the PM10 levels in Polish cities have reduced over the decade and that Tuchów went from being the 13th most polluted city in Poland in 2010 to being the 19th in 2020! It might not be a big one but it is still an improvement :)
 
 <div align="center">
   
